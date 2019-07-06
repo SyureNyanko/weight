@@ -10,7 +10,6 @@ import Graph from './components/Graph.vue'
 import VueJsonp from 'vue-jsonp'
 Vue.use(VueJsonp)
 
-
 export default {
   name: 'app',
   components: {
@@ -45,7 +44,7 @@ export default {
           ticks: {
             min: 75,
             max: 85,
-            fontSize: 18,
+            fontSize: 9,
             stepSize: 0.5,
           }
           }],
@@ -54,7 +53,7 @@ export default {
             scaleLabel: {
               display: true,
               labelString: 'day',
-              fontSize: 24
+              fontSize: 10
             },
           ticks: {
             min: 1,
